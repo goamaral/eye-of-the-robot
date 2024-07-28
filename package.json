@@ -1,0 +1,23 @@
+{
+  "name": "eye-of-the-robot",
+  "version": "1.0.0",
+  "description": "See pages without pop ups",
+  "main": "index.ts",
+  "type": "module",
+  "scripts": {
+    "dev": "tsx --watch index.ts"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@fastify/static": "^7.0.4",
+    "fastify": "^4.28.1",
+    "tsx": "^4.16.2",
+    "typescript": "^5.5.4",
+    "website-scraper": "^5.3.1"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "@types/website-scraper": "^1.2.10"
+  }
+}
